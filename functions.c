@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // THIS FUNCTION DOES NOT RETURN ANY VALUE
 void greeting(char name[], int age)
@@ -14,11 +15,11 @@ or night
 char what_to_do(char weather[])
 {
     char *statement;
-    if (weather == "cold")
+    if (strcmp(weather, "cold"))
     {
         statement = "please wear a sweeater";
     }
-    else if (weather == "hot")
+    else if (strcmp(weather, "hot"))
     {
         statement = "Please remember to drink your water";
     }
@@ -26,6 +27,7 @@ char what_to_do(char weather[])
     {
         statement = "Have an awesome day";
     }
+    printf("%s", statement);
     return statement;
 }
 
