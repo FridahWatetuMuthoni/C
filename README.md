@@ -21,3 +21,14 @@ Mac OS Setup:
     7. Click on download the binary release
     8. Click the Mac option
     9. Click on the CodeBlocks-13.12-mac.zip => Sourecforge.net
+
+## INCLUDING VARIABLES IN STRINGS
+
+1. Strings
+    printf("The circumference od the circle is %s ", circumfence);
+
+2. Floats:
+        printf("The circumference od the circle is %f ", circumfence);
+
+3. Numbers:
+    printf("The circumference od the circle is %i ", circumfence);
